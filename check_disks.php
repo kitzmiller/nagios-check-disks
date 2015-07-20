@@ -6,7 +6,7 @@ $opts = getopt("w:c:", array("inodewarn:", "inodecrit:"));
 if(!isset($opts["w"])) { $opts["w"] = 90; }
 if(!isset($opts["c"])) { $opts["c"] = 95; }
 if(!isset($opts["inodewarn"])) { $opts["inodewarn"] = 90; }
-if(!isset($opts["inodecrit"])) { $opts["inodecrit"] = 90; }
+if(!isset($opts["inodecrit"])) { $opts["inodecrit"] = 95; }
 
 
 $units = array("B","KiB","MiB","GiB","TiB","PiB","EiB","ZiB","YiB");
