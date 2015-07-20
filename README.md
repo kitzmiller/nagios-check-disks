@@ -19,7 +19,7 @@ This is a local nagios check written in php to check disk and inode utilization 
 Defaults to 90% utilization for warnings and 95% utilization for critical alerts.
 
 ##Usage
-    ./check_disks.php [-w warnlevel] [-c critlevel] [--inodewarn iwarnlevel] [--inodecrit icritlevel]
+    ./check_disks.php [-w warn] [-c crit] [--inodewarn iwarn] [--inodecrit icrit]
     -w            Warning level for bytes used
     -c            Critical level for bytes used
     --inodewarn   inode usage warning level
